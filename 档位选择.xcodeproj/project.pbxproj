@@ -15,6 +15,7 @@
 		3E2C69A71FF784B600EBF17A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2C69A61FF784B600EBF17A /* main.m */; };
 		3E2C69B11FF784B600EBF17A /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2C69B01FF784B600EBF17A /* ____Tests.m */; };
 		3E2C69BC1FF784B600EBF17A /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2C69BB1FF784B600EBF17A /* ____UITests.m */; };
+		3E2C69CB1FF7850300EBF17A /* JGProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2C69CA1FF7850300EBF17A /* JGProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3E2C69B71FF784B600EBF17A /* 档位选择UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "档位选择UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2C69BB1FF784B600EBF17A /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		3E2C69BD1FF784B600EBF17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2C69C91FF7850300EBF17A /* JGProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGProgressView.h; sourceTree = "<group>"; };
+		3E2C69CA1FF7850300EBF17A /* JGProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				3E2C69971FF784B600EBF17A /* AppDelegate.h */,
 				3E2C69981FF784B600EBF17A /* AppDelegate.m */,
+				3E2C69C91FF7850300EBF17A /* JGProgressView.h */,
+				3E2C69CA1FF7850300EBF17A /* JGProgressView.m */,
 				3E2C699A1FF784B600EBF17A /* ViewController.h */,
 				3E2C699B1FF784B600EBF17A /* ViewController.m */,
 				3E2C699D1FF784B600EBF17A /* Main.storyboard */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E2C69CB1FF7850300EBF17A /* JGProgressView.m in Sources */,
 				3E2C699C1FF784B600EBF17A /* ViewController.m in Sources */,
 				3E2C69A71FF784B600EBF17A /* main.m in Sources */,
 				3E2C69991FF784B600EBF17A /* AppDelegate.m in Sources */,
@@ -431,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32MQWCT2QN;
 				INFOPLIST_FILE = "档位选择/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "caojicom.com.----";
@@ -444,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32MQWCT2QN;
 				INFOPLIST_FILE = "档位选择/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "caojicom.com.----";
